@@ -1,0 +1,108 @@
+<!-- index.html: Homepage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVEL Cleaning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AVEL Cleaning</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Book a Cleaning</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to AVEL Cleaning</h2>
+            <p>Founded by two dedicated sisters in York, Pennsylvania, we specialize in both residential and commercial cleaning services.</p>
+        </section>
+        <section>
+            <h3>Our Services</h3>
+            <div>
+                <h4>Residential Cleaning</h4>
+                <p>Detail-oriented cleaning for your home comfort.</p>
+            </div>
+            <div>
+                <h4>Commercial Cleaning</h4>
+                <p>Professional cleaning services for your business space.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 AVEL Cleaning</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- booking.html: Booking Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... Head contents ... -->
+</head>
+<body>
+    <!-- ... Header ... -->
+    <main>
+        <h2>Book a Cleaning Service</h2>
+        <form id="booking-form">
+            <label for="service-type">Service Type:</label>
+            <select id="service-type" name="service-type">
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+            </select>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time">
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests"></textarea>
+            <button type="submit">Submit Booking</button>
+        </form>
+    </main>
+    <!-- ... Footer ... -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+/* styles.css: Styling for the website */
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+// script.js: Basic JavaScript for form handling
+
+
